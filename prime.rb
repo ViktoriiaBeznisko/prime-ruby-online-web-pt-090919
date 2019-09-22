@@ -1,6 +1,6 @@
 # Add  code here!
 def prime(numbers)
-start_count = 2
+numbers = 2
 
   if number > 1
     range = (start_count..number-1).to_a

@@ -1,11 +1,11 @@
 # Add  code here!
 def prime(numbers)
-numbers = 2
+start_count = 2
 
-  if number > 1
-    range = (start_count..number-1).to_a
+  if numbers > 1
+    range = (start_count..numbers-1).to_a
     range.none? do |num_to_test|
-      number % num_to_test == 0
+      numbers % num_to_test == 0
     end
   else
     false
